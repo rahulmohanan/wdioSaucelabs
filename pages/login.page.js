@@ -30,26 +30,7 @@ class loginValidation{
         this.credErrormessage.waitForVisible()        
     }
    /*
-    errorMessageCheck(){
-        this.
-    }
-
-
- 
-    get loginButtonHome()       {return $('a.button.login')}
-    get loginEmailId()           {return $('#login_user')}
-    get loginPassword()           {return $('#login_pw')}
-    get loginButton()           {return $('#login_btn')}
-    get loginError()        {return $('.form-error')}
-
-    get strings() {
-        return {
-            invalidCredentials: "User credentials are invalid",
-            invalidUserName: "Please enter a valid email address.",
-            noUserName: "Please enter your email address.",
-            noPassword: "Please enter your password."
-        }
-    }
+    
 
     loginUserValidation(user,password) {
         this.loginEmailId.setValue(user)

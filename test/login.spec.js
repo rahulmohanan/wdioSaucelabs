@@ -23,27 +23,10 @@ suite("Login page validation",function(){
         })
         loginPage.credentialValidation()
     })
-/*
-    test("Verify nno user and no password",function(){
-
-        inputUserDetails(' ',' ')
-        loginPage.displayMessage()
-        loginPage.errorMessageCheck()
-    })
-    
-*/
 
 })
     /*
-    test("Verify the home page titile", function(){
-        assert.equal(browser.getTitle(),"Amazon.ca: Online shopping in Canada - books, electronics, Kindle, home & garden, DVDs, tools, music, health & beauty, watches, baby, sporting goods & more")
-    })
-
-    test("Verify the login page title upon clicking the login button from home page", function(){
-        loginPage.loginButtonHome.click()
-        assert.equal(browser.getTitle(),"Firmex Virtual Data Room Login")
-    })
-
+    
     test("Verify whether Error message is displayed when user enters invalid credentials in Login", function() {
         loginPage.loginUserValidation('assignment@gmail.com','testassignment')
         loginPage.verifyErrorIsDisplayed()
